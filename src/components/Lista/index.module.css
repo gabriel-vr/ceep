@@ -1,0 +1,44 @@
+.table{
+    width: 80%;
+    height: 90vh;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    row-gap: 10px;
+    column-gap: 5px;
+
+    list-style-type: none;
+
+    overflow-y: auto;
+}
+
+.card{
+    height: fit-content;
+    width: fit-content;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(240, 227, 227);
+    white-space: normal;
+
+    text-align: center;
+}
+
+.card > header{
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.card > main{
+    font-size: 1.1rem;
+    font-weight: 500;
+    min-height: 80px;
+    width: 200px;
+
+    margin-top: 10px;
+
+    word-wrap: break-word;
+}
