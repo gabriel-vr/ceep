@@ -4,3 +4,14 @@
     grid-template-columns: 1fr 2fr;
     justify-items: center;
 }
+
+.rightcolumn{
+    margin-right: 2%;
+    justify-self: end;
+
+    
+}
+
+.input{
+    justify-self: flex-end;
+}

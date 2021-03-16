@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container > input{
+    height: fit-content;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+.item{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding: .2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    border-radius: 5px;
+}
